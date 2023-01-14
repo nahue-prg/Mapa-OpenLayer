@@ -1,0 +1,29 @@
+@import "node_modules/ol/ol.css";
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 80%;
+  height: 80%;
+}
+
+.locate {
+  top: 6em;
+  left: .5em;
+}
+
+.ol-popup {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid gray;
+  bottom: 12px;
+  left: -50px;
+  min-width: 280px;
+}
